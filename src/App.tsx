@@ -17,7 +17,7 @@ const App = () => (
         <ExpandedPlayer />
         <Toaster />
         <Sonner />
-        <BrowserRouter>
+        <BrowserRouter basename="/Music-Player-App">
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="*" element={<NotFound />} />
