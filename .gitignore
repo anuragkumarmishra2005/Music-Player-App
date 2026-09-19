@@ -1,0 +1,42 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Build error / scratch output
+build_error.txt
+build_output.log
+
+# Bun binary lockfile
+bun.lockb
+
+# Scratch / ad-hoc test scripts
+tmp/
+
+# Vite timestamp artifacts
+*.timestamp-*.mjs
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
